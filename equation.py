@@ -54,4 +54,7 @@ class Equation:
                   cls.X3 = (- cls.X4)/( cls.nombre_1)
                   print("l'equation admet une racine double X3 ==  {}".format(cls.X3))
 
+          else:
+              print("Veuillez bien renseigner vos chiffre")
+
 Equation.calcul_fonction()
